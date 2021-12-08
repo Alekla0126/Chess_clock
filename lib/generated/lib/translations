@@ -1,0 +1,44 @@
+// DO NOT EDIT. This is code generated via package:easy_localization/generate.dart
+
+// ignore_for_file: prefer_single_quotes
+
+import 'dart:ui';
+
+import 'package:easy_localization/easy_localization.dart' show AssetLoader;
+
+class CodegenLoader extends AssetLoader{
+  const CodegenLoader();
+
+  @override
+  Future<Map<String, dynamic>> load(String fullPath, Locale locale ) {
+    return Future.value(mapLocales[locale.toString()]);
+  }
+
+  static const Map<String,dynamic> en = {
+  "Add_game": "Add custom game",
+  "Chess_clock": "Chess clock",
+  "Settings": "Settings",
+  "Theme": "Theme",
+  "Choose_theme": "Choose a different theme",
+  "Vibration": "Vibration",
+  "Customize_haptic": "Customize the haptic feedback",
+  "Rate this app": "Rate this app",
+  "Title": "Title",
+  "Select_time": "Select time",
+  "Confirm": "Confirm"
+};
+static const Map<String,dynamic> es = {
+  "Add_game": "Añade un juego personalizado",
+  "Chess_clock": "Reloj de ajedrez",
+  "Settings": "Configuración",
+  "Theme": "Tema",
+  "Choose_theme": "Escoje un tema diferente",
+  "Vibration": "Vibración",
+  "Customize_haptic": "Personaliza la retroalimentación háptica",
+  "Rate this app": "Califica la aplicación",
+  "Title": "Título",
+  "Select_time": "Selecciona la duración",
+  "Confirm": "Confirmar"
+};
+static const Map<String, Map<String,dynamic>> mapLocales = {"en": en, "es": es};
+}
