@@ -1,6 +1,6 @@
-# chessclock
+# Chessclock
 
-A new Flutter project.
+A simple Flutter chess clock that flips for user convenience.
 
 ## Getting Started
 
