@@ -1,7 +1,7 @@
+import 'package:flutter_picker_plus/flutter_picker_plus.dart';
 import 'package:chess_clock/translations/locale_keys.g.dart';
 import 'package:easy_localization/src/public_ext.dart';
 import 'package:chess_clock/GlobalFiles/appState.dart';
-import 'package:flutter_picker/flutter_picker.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
 
