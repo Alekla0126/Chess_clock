@@ -1,8 +1,7 @@
-import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-
 import 'package:chess_clock/Screens/second_Screen.dart';
 import 'package:chess_clock/GlobalFiles/appState.dart';
+import 'package:provider/provider.dart';
+import 'package:flutter/material.dart';
 
 //This widget builds the list on the main-screen in which shows the default and the custom games.
 class ScrollableGamesGrid extends StatelessWidget {

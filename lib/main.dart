@@ -42,12 +42,13 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           fontFamily: 'Quicksand',
           textTheme: ThemeData.light().textTheme.copyWith(
-              subtitle1: TextStyle(
-                fontFamily: 'Opensans',
-                fontWeight: FontWeight.bold,
-                fontSize: 18,
-              ),
-              button: TextStyle(color: appState.getColorTheme()['background'])),
+            titleMedium: TextStyle(
+              fontFamily: 'Opensans',
+              fontWeight: FontWeight.bold,
+              fontSize: 18,
+            ),
+            labelLarge: TextStyle(color: appState.getColorTheme()['background']),
+          ),
         ),
         home: MyHomePage(title: LocaleKeys.title.tr()),
       );

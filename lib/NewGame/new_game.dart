@@ -81,7 +81,7 @@ class _NewGameState extends State<NewGame> {
                               children: <Widget>[
                                 ElevatedButton(
                                   style: ElevatedButton.styleFrom(
-                                    primary: appState.getColorTheme()['buttons'],
+                                    backgroundColor: appState.getColorTheme()['buttons'],
                                   ),
                                   child: _timeWhite == null
                                       ? Text(LocaleKeys.Select_time.tr())
@@ -150,7 +150,7 @@ class _NewGameState extends State<NewGame> {
                                 ),
                                 ElevatedButton(
                                   style: ElevatedButton.styleFrom(
-                                    primary: appState.getColorTheme()['background'],
+                                    backgroundColor: appState.getColorTheme()['background'],
                                   ),
                                   child: _incrementWhite == null
                                       ? Text('Select Increment')
@@ -212,7 +212,7 @@ class _NewGameState extends State<NewGame> {
                               children: <Widget>[
                                 ElevatedButton(
                                   style: ElevatedButton.styleFrom(
-                                    primary: appState.getColorTheme()['buttons'],
+                                    backgroundColor: appState.getColorTheme()['buttons'],
                                   ),
                                   child: _timeBlack == null
                                       ? Text(LocaleKeys.Select_time.tr())
@@ -281,7 +281,7 @@ class _NewGameState extends State<NewGame> {
                                 ),
                                 ElevatedButton(
                                   style: ElevatedButton.styleFrom(
-                                    primary: appState.getColorTheme()['background'],
+                                    backgroundColor: appState.getColorTheme()['background'],
                                   ),
                                   child: _incrementBlack == null
                                       ? Text('Select Increment')
@@ -337,7 +337,7 @@ class _NewGameState extends State<NewGame> {
                           ),
                           ElevatedButton(
                             style: ElevatedButton.styleFrom(
-                              primary: appState.getColorTheme()['button'],
+                              backgroundColor: appState.getColorTheme()['button'],
                             ),
                             child: Text(LocaleKeys.Confirm.tr()),
                             onPressed: () => submitData(appState.addGame),
