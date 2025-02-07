@@ -1,4 +1,4 @@
-import 'package:chess_clock/Screens/second_Screen.dart';
+import 'package:chess_clock/Screens/second_screen.dart';
 import 'package:chess_clock/GlobalFiles/appState.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
